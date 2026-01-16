@@ -1,8 +1,10 @@
 # DTUnator
 
-DTUnator is an on-demand AI-powered doubt-solving assistant designed specifically for students of Delhi Technological University (DTU). It helps students resolve academic doubts by retrieving answers directly from verified lecture notes and course material, ensuring accuracy and relevance.
+DTU students often struggle to find precise academic answers because information is scattered across too many documents, and generic AI chatbots aren't reliable for our specific curriculum.
 
-DTUnator follows a Retrieval-Augmented Generation (RAG) architecture. It does not rely on the language model’s general knowledge. Instead, every response is generated strictly from documents retrieved at query time, making the system suitable for academic use where correctness and source grounding are essential.
+DTUnator solves this. It’s an AI assistant built exclusively on verified DTU lecture materials. Instead of guessing based on general knowledge, it finds answers directly within official course documents. If the information isn’t there, it honestly says so. It also gives students/users the option to add their own files such as PDFs, youtube links, audio files, website links, etc. and ask their queries based on the source provided by them
+
+The result is faster, trustworthy doubt resolution that helps students learn efficiently using material they can depend on.
 
 ## How DTUnator Works
 
