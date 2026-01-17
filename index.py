@@ -32,7 +32,7 @@ ONDEMAND_API_KEY = os.getenv("ONDEMAND_API_KEY")
 if not ONDEMAND_API_KEY:
     logger.warning("⚠️ ONDEMAND_API_KEY missing")
 
-DB_PATH = "./data/vector_db"
+DB_PATH = "./vector_db"
 INDEX_NAME = "DtuDoubt"
 TEMP_UPLOAD_DIR = "./temp_uploads"
 
