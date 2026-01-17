@@ -499,10 +499,4 @@ def main():
     app.render_header()
     app.render_chat()
 
-
-if __name__ == "__main__":
-    try:
-        main()
-    except Exception as e:
-        logger.critical(e, exc_info=True)
-        st.error("🚨 Something went wrong. Check logs.")
+main()
